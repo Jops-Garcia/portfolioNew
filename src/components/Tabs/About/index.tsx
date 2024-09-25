@@ -23,8 +23,8 @@ export const About = () => {
 				<div className='flex flex-col gap-6'>
 					<h2 className='text-2xl font-bold'>Sobre mim</h2>
 					<p>
-						Possuo experiência com <strong>Java</strong> & <strong>Selenium</strong>, porém sempre mantive ativo nos estudos.
-						 Atualmente focando em <strong>Desenvolvimento Mobile</strong> e <strong>Kotlin</strong>.
+						Possuo experiência profissional com <strong>Java</strong> & <strong>Selenium</strong>, porém sempre mantive ativo nos estudos.
+						Atualmente focando em <strong>Desenvolvimento Mobile</strong> e <strong>Kotlin</strong>.
 					</p>
 
 					<p>

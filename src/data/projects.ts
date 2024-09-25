@@ -4,6 +4,19 @@ import * as Icon from '@/utils/iconsPath'
 
 export const projectsList: Project[] = [
   {
+    title: 'Aprendizado por reforço',
+    description: 'Treinamento e implementação de uma IA nos ambientes Lunar Lander e Car Racing.',
+    technologies: [
+      {
+        name: 'Python',
+        iconPath: Icon.pythonIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/Intel-Artificial',
+    deploy: '',
+    imagePath: 'assets/projects/project14.png',
+  },
+  {
     title: 'Sorteador',
     description: 'Um aplicativo para sorteio de um número.',
     technologies: [
