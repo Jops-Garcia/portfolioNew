@@ -4,6 +4,40 @@ import * as Icon from '@/utils/iconsPath'
 
 export const projectsList: Project[] = [
   {
+    title: 'ValBets',
+    description: 'Aplicativo mobile de Apostas em Partidas de Valorant usando Ethereum, smart contract (solidity) e a carteira virtual Metamask',
+    technologies: [
+      {
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
+      },
+      {
+        name: 'Kotlin',
+        iconPath: Icon.kotlinIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/ValBets',
+    deploy: '',
+    imagePath: 'assets/projects/project16.png',
+  },
+    {
+    title: 'Rest API Java Spring',
+    description: 'API Rest Java Spring usando desenvolvimento em camadas',
+    technologies: [
+      {
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
+      },
+      {
+        name: 'Spring Boot',
+        iconPath: Icon.springIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/mygamelist/tree/main',
+    deploy: '',
+    imagePath: 'assets/projects/project15.png',
+  },
+  {
     title: 'Aprendizado por reforço',
     description: 'Treinamento e implementação de uma IA nos ambientes Lunar Lander e Car Racing.',
     technologies: [

@@ -8,4 +8,5 @@ export const certificatesList = [
 	{ imagePath: 'assets/certificates/DVWBJPGP25HT412114.png' },
 	{ imagePath: 'assets/certificates/DVWBJPGP25FI412114.png' },
 	{ imagePath: 'assets/certificates/DVWBJPGP25EL412114.png' },
+	{ imagePath: 'assets/certificates/incubacao.png' },
 ]

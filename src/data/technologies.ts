@@ -7,6 +7,7 @@ export const technologiesList = [
   { name: 'C', iconPath: Icon.cIconPath },
   { name: 'Python', iconPath: Icon.pythonIconPath },
   { name: 'Selenium', iconPath: Icon.seleniumIconPath },
+  { name: 'Spring', iconPath: Icon.springIconPath },
   { name: 'React.js', iconPath: Icon.reactIconPath },
   { name: 'JavaScript', iconPath: Icon.javascriptIconPath },
   { name: 'Node.js', iconPath: Icon.nodejsIconPath },
