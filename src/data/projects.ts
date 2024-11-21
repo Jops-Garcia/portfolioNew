@@ -51,6 +51,19 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/project14.png',
   },
   {
+    title: 'Encurtador de URL',
+    description: 'Encurtador de URL com Microserviços AWS',
+    technologies: [
+      {
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/URL-Shortener',
+    deploy: '',
+    imagePath: 'assets/projects/project17.png',
+  },
+  {
     title: 'Sorteador',
     description: 'Um aplicativo para sorteio de um número.',
     technologies: [
