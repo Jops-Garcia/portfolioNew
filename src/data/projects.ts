@@ -68,65 +68,6 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/project17.png',
   },
   {
-    title: 'Jogo da Velha',
-    description: 'Um simples jogo da velha feito em Java no Android studio.',
-    technologies: [
-      {
-        name: 'Java',
-        iconPath: Icon.javaIconPath,
-      },
-      {
-        name: 'Android Studio',
-        iconPath: Icon.androidStudioIconPath,
-      },
-    ],
-    repository: 'https://github.com/Jops-Garcia/RockPaperScissors',
-    deploy: '',
-    imagePath: 'assets/projects/project18.png',
-  },
-  {
-    title: 'Sorteador',
-    description: 'Um aplicativo para sorteio de um número.',
-    technologies: [
-      {
-        name: 'Kotlin',
-        iconPath: Icon.kotlinIconPath,
-      },
-      {
-        name: 'Java',
-        iconPath: Icon.javaIconPath,
-      },
-    ],
-    repository: 'https://github.com/Jops-Garcia/Sorteador.git',
-    deploy: '',
-    imagePath: 'assets/projects/project13.png',
-  },
-  {
-    title: 'Jogo da memória',
-    description: 'Um jogo da memória simples',
-    technologies: [
-      {
-        name: 'React',
-        iconPath: Icon.reactIconPath,
-      },
-      {
-        name: 'HTML',
-        iconPath: Icon.htmlIconPath,
-      },
-      {
-        name: 'CSS',
-        iconPath: Icon.cssIconPath,
-      },
-      {
-        name: 'JavaScript',
-        iconPath: Icon.javascriptIconPath,
-      },
-    ],
-    repository: 'https://github.com/Jops-Garcia/WEBLittleProjects/tree/main/modulo37',
-    deploy: 'https://jops-garcia.github.io/WEBLittleProjects/modulo37/',
-    imagePath: 'assets/projects/project1.jpg',
-  },
-  {
     title: 'Gravador de voz',
     description: 'Um app gravador de voz feito com Electron',
     technologies: [
@@ -165,29 +106,25 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/project3.jpg',
   },
   {
-    title: 'Jogo da Velha',
-    description: 'Um jogo da velha simples.',
+    title: 'Jogo pedra papel tesoura',
+    description: 'Um jogo pedra papel tesoura feito em Java no Android studio.',
     technologies: [
       {
-        name: 'HTML',
-        iconPath: Icon.htmlIconPath,
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
       },
       {
-        name: 'CSS',
-        iconPath: Icon.cssIconPath,
-      },
-      {
-        name: 'JavaScript',
-        iconPath: Icon.javascriptIconPath,
+        name: 'Android Studio',
+        iconPath: Icon.androidStudioIconPath,
       },
     ],
-    repository: 'https://github.com/Jops-Garcia/WEBLittleProjects/tree/main/modulo18',
-    deploy: 'https://jops-garcia.github.io/WEBLittleProjects/modulo18/',
-    imagePath: 'assets/projects/project4.jpg',
+    repository: 'https://github.com/Jops-Garcia/RockPaperScissors',
+    deploy: '',
+    imagePath: 'assets/projects/project18.png',
   },
   {
     title: 'Bot para monitorar criptomoedas',
-    description: 'Um pequeno bot para discord que atualiza o valor de uma moeda se baseando na API da coingecko.',
+    description: 'Um bot para discord que atualiza o valor de uma moeda se baseando na API da coingecko.',
     technologies: [
       {
         name: 'Python',
@@ -199,25 +136,21 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/project5.jpg',
   },
   {
-    title: 'Churrascômetro',
-    description: 'Uma brincadeira feita para calcular quantas carnes e bebidas devem ser levadas em um churrasco',
+    title: 'Sorteador',
+    description: 'Um aplicativo para sorteio de um número.',
     technologies: [
       {
-        name: 'HTML',
-        iconPath: Icon.htmlIconPath,
+        name: 'Kotlin',
+        iconPath: Icon.kotlinIconPath,
       },
       {
-        name: 'CSS',
-        iconPath: Icon.cssIconPath,
-      },
-      {
-        name: 'JavaScript',
-        iconPath: Icon.javascriptIconPath,
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
       },
     ],
-    repository: 'https://github.com/Jops-Garcia/WEBLittleProjects/tree/main/modulo13',
-    deploy: 'https://jops-garcia.github.io/WEBLittleProjects/modulo13/',
-    imagePath: 'assets/projects/project6.jpg',
+    repository: 'https://github.com/Jops-Garcia/Sorteador.git',
+    deploy: '',
+    imagePath: 'assets/projects/project13.png',
   },
   {
     title: 'ToDo List',
@@ -246,7 +179,7 @@ export const projectsList: Project[] = [
   },
   {
     title: 'CRUD API',
-    description: 'Um CRUD API simples. ',
+    description: 'Um CRUD API. ',
     technologies: [
       {
         name: 'Node.js',
@@ -260,6 +193,74 @@ export const projectsList: Project[] = [
     repository: 'https://github.com/Jops-Garcia/crudAPI',
     deploy: '',
     imagePath: 'assets/projects/project8.jpg',
+  },
+  {
+    title: 'Jogo da memória',
+    description: 'Um jogo da memória feito com React',
+    technologies: [
+      {
+        name: 'React',
+        iconPath: Icon.reactIconPath,
+      },
+      {
+        name: 'HTML',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'CSS',
+        iconPath: Icon.cssIconPath,
+      },
+      {
+        name: 'JavaScript',
+        iconPath: Icon.javascriptIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/WEBLittleProjects/tree/main/modulo37',
+    deploy: 'https://jops-garcia.github.io/WEBLittleProjects/modulo37/',
+    imagePath: 'assets/projects/project1.jpg',
+  },
+
+  {
+    title: 'Jogo da Velha',
+    description: 'Um jogo da velha.',
+    technologies: [
+      {
+        name: 'HTML',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'CSS',
+        iconPath: Icon.cssIconPath,
+      },
+      {
+        name: 'JavaScript',
+        iconPath: Icon.javascriptIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/WEBLittleProjects/tree/main/modulo18',
+    deploy: 'https://jops-garcia.github.io/WEBLittleProjects/modulo18/',
+    imagePath: 'assets/projects/project4.jpg',
+  },
+  {
+    title: 'Churrascômetro',
+    description: 'Uma brincadeira feita para calcular quantas carnes e bebidas devem ser levadas em um churrasco',
+    technologies: [
+      {
+        name: 'HTML',
+        iconPath: Icon.htmlIconPath,
+      },
+      {
+        name: 'CSS',
+        iconPath: Icon.cssIconPath,
+      },
+      {
+        name: 'JavaScript',
+        iconPath: Icon.javascriptIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/WEBLittleProjects/tree/main/modulo13',
+    deploy: 'https://jops-garcia.github.io/WEBLittleProjects/modulo13/',
+    imagePath: 'assets/projects/project6.jpg',
   },
   {
     title: 'Grafos em java',
@@ -276,7 +277,7 @@ export const projectsList: Project[] = [
   },
   {
     title: 'Leitor de faturas PDF',
-    description: 'Esta é a resposta de um teste prático com o objetivo de extrair informações de um documento PDF',
+    description: 'Este foi um teste com o objetivo de extrair informações de um documento PDF',
     technologies: [
       {
         name: 'Java',
@@ -289,7 +290,7 @@ export const projectsList: Project[] = [
   },
   {
     title: 'Algumas atividades em Java',
-    description: 'Algumas atividades em Java realizadas no IFES',
+    description: 'Algumas atividades realizadas no IFES',
     technologies: [
       {
         name: 'Java',
