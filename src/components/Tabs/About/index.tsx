@@ -16,19 +16,18 @@ export const About = () => {
 					</h1>
 
 					<p>
-						Sou um desenvolvedor extremamente dedicado e esforçado, determinado em entregar excelência e cumprir os objetivos, flexível e <strong>pronto para qualquer desafio</strong>. Sem medo da novidade e de mudanças, sempre correndo em busca de evolução profissional e pessoal!
+						Sou <strong>Bacharel em Sistemas de informação</strong>, um desenvolvedor extremamente dedicado e esforçado, determinado em entregar excelência e cumprir os objetivos, flexível e <strong>pronto para qualquer desafio</strong>. Sem medo da novidade e de mudanças, sempre correndo em busca de evolução profissional e pessoal!
 					</p>
 				</div>
 
 				<div className='flex flex-col gap-6'>
 					<h2 className='text-2xl font-bold'>Sobre mim</h2>
 					<p>
-						Possuo experiência profissional com <strong>Java</strong> & <strong>Selenium</strong> e sempre mantive ativo nos estudos.
-						Atualmente focando em <strong>Desenvolvimento Mobile</strong> e <strong>Kotlin</strong>.
+						Sou Possuo experiência profissional com <strong>Java</strong> & <strong>Selenium</strong>, porém sempre mantive ativo nos estudos realizando projetos pessoais com outras ferramentas e linguagens.
 					</p>
 
 					<p>
-						Desde 15 anos demonstro grande interesse pela área da tecnologia, durante o ano de <strong>2018 até 2020</strong> realizei o curso de técnico em <strong>Redes de computadore</strong> onde pude aprender sobre muitas coisas com ênfase em servidores, segurança de redes
+						Desde 15 anos demonstro grande interesse pela área da tecnologia, durante o ano de <strong>2018 até 2020</strong> realizei o curso de técnico em <strong>Redes de computadores</strong> onde pude aprender sobre muitas coisas com ênfase em servidores, segurança de redes
 						e segurança da informação. Mas foi conversando com os professores do curso que descobri minha verdadeira paixão: o <strong>desenvolvimento de software</strong>.
 					</p>
 

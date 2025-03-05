@@ -8,5 +8,8 @@ export const certificatesList = [
 	{ imagePath: 'assets/certificates/DVWBJPGP25HT412114.png' },
 	{ imagePath: 'assets/certificates/DVWBJPGP25FI412114.png' },
 	{ imagePath: 'assets/certificates/DVWBJPGP25EL412114.png' },
+	{ imagePath: 'assets/certificates/certificate_Joao_Pedro_Garcia_Pereira__1.jpg'},
+	{ imagePath: 'assets/certificates/certificate_Joao_Pedro_Garcia_Pereira__2.jpg' },
+    { imagePath: 'assets/certificates/certificate_Joao_Pedro_Garcia_Pereira__3.jpg' },
 	{ imagePath: 'assets/certificates/incubacao.png' },
 ]

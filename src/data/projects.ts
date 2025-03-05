@@ -5,7 +5,7 @@ import * as Icon from '@/utils/iconsPath'
 export const projectsList: Project[] = [
   {
     title: 'ValBets',
-    description: 'Aplicativo mobile de Apostas em Partidas de Valorant usando Ethereum, smart contract (solidity) e a carteira virtual Metamask',
+    description: 'Aplicativo mobile de apostas em partidas de Valorant usando Ethereum e smart contract (solidity)',
     technologies: [
       {
         name: 'Java',
@@ -14,6 +14,10 @@ export const projectsList: Project[] = [
       {
         name: 'Kotlin',
         iconPath: Icon.kotlinIconPath,
+      },
+      {
+        name: 'Android Studio',
+        iconPath: Icon.androidStudioIconPath,
       },
     ],
     repository: 'https://github.com/Jops-Garcia/ValBets',
@@ -62,6 +66,23 @@ export const projectsList: Project[] = [
     repository: 'https://github.com/Jops-Garcia/URL-Shortener',
     deploy: '',
     imagePath: 'assets/projects/project17.png',
+  },
+  {
+    title: 'Jogo da Velha',
+    description: 'Um simples jogo da velha feito em Java no Android studio.',
+    technologies: [
+      {
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
+      },
+      {
+        name: 'Android Studio',
+        iconPath: Icon.androidStudioIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/RockPaperScissors',
+    deploy: '',
+    imagePath: 'assets/projects/project18.png',
   },
   {
     title: 'Sorteador',
