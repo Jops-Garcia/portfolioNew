@@ -147,6 +147,10 @@ export const projectsList: Project[] = [
         name: 'Java',
         iconPath: Icon.javaIconPath,
       },
+      {
+        name: 'Android Studio',
+        iconPath: Icon.androidStudioIconPath,
+      },
     ],
     repository: 'https://github.com/Jops-Garcia/Sorteador.git',
     deploy: '',
@@ -193,6 +197,23 @@ export const projectsList: Project[] = [
     repository: 'https://github.com/Jops-Garcia/crudAPI',
     deploy: '',
     imagePath: 'assets/projects/project8.jpg',
+  },
+    {
+    title: 'Gasolina ou Alcool',
+    description: 'App feito em kotlin para calcular se é mais vantajoso abastecer com gasolina ou álcool',
+    technologies: [
+      {
+        name: 'Kotlin',
+        iconPath: Icon.kotlinIconPath,
+      },
+      {
+        name: 'Android Studio',
+        iconPath: Icon.androidStudioIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/GasolinaOuAlcool',
+    deploy: '',
+    imagePath: 'assets/projects/project19.png',
   },
   {
     title: 'Jogo da memória',
