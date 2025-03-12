@@ -216,6 +216,23 @@ export const projectsList: Project[] = [
     imagePath: 'assets/projects/project19.png',
   },
   {
+    title: 'Calculadora de IMC',
+    description: 'App feito em kotlin para calcular o IMC',
+    technologies: [
+      {
+        name: 'Kotlin',
+        iconPath: Icon.kotlinIconPath,
+      },
+      {
+        name: 'Android Studio',
+        iconPath: Icon.androidStudioIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/CalculadoraIMC',
+    deploy: '',
+    imagePath: 'assets/projects/project20.png',
+  },
+  {
     title: 'Jogo da memória',
     description: 'Um jogo da memória feito com React',
     technologies: [
