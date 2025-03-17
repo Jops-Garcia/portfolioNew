@@ -1,6 +1,5 @@
 import { Project } from '@/@types/Project'
 import * as Icon from '@/utils/iconsPath'
-// imagePath: 'assets/projects/api-image-generic.png',
 
 export const projectsList: Project[] = [
   {
@@ -16,6 +15,10 @@ export const projectsList: Project[] = [
         iconPath: Icon.kotlinIconPath,
       },
       {
+        name: 'Solidity',
+        iconPath: Icon.solidityIconPath,
+      },
+      {
         name: 'Android Studio',
         iconPath: Icon.androidStudioIconPath,
       },
@@ -24,7 +27,28 @@ export const projectsList: Project[] = [
     deploy: '',
     imagePath: 'assets/projects/project16.png',
   },
-    {
+  {
+    title: 'Página de login + backend',
+    description: 'Página de Login usando Angular e backend em Java + Spring Boot',
+    technologies: [
+      {
+        name: 'Angular',
+        iconPath: Icon.angularIconPath,
+      },
+      {
+        name: 'Java',
+        iconPath: Icon.javaIconPath,
+      },
+      {
+        name: 'Spring',
+        iconPath: Icon.springIconPath,
+      },
+    ],
+    repository: 'https://github.com/Jops-Garcia/login-page',
+    deploy: '',
+    imagePath: '/assets/projects/project21.png',
+  },
+  {
     title: 'Rest API Java Spring',
     description: 'API Rest Java Spring usando desenvolvimento em camadas',
     technologies: [

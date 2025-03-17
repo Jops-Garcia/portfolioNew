@@ -4,7 +4,6 @@ import * as Icon from '@/utils/iconsPath'
 export const technologiesList = [
   { name: 'Java', iconPath: Icon.javaIconPath },
   { name: 'Kotlin', iconPath: Icon.kotlinIconPath },
-  { name: 'C', iconPath: Icon.cIconPath },
   { name: 'Python', iconPath: Icon.pythonIconPath },
   { name: 'Selenium', iconPath: Icon.seleniumIconPath },
   { name: 'Spring', iconPath: Icon.springIconPath },
